@@ -1,0 +1,38 @@
+{
+  "name": "tapef",
+  "version": "0.0.0",
+  "description": "Tape API with Mocha's error output",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test | tap-spec"
+  },
+  "keywords": [
+    "tape",
+    "test",
+    "testing",
+    "tap"
+  ],
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "defined": "0.0.0",
+    "diff": "^1.0.8",
+    "ms": "^0.6.2",
+    "object-inspect": "^1.0.0",
+    "tap-spec": "^2.1.0",
+    "tape": "^3.0.3",
+    "through2": "^0.6.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/tapef.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/tapef/issues"
+  },
+  "homepage": "https://github.com/timoxley/tapef"
+}
