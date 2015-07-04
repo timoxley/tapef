@@ -194,7 +194,7 @@ function encodeResult (test, count) {
     }
 
     output += outer + '...\n';
-    return output;
+    return output.replace(/\\n/g, '\n');
 }
 
 function has (obj, prop) {
