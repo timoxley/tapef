@@ -1,6 +1,6 @@
 {
   "name": "tapef",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tape API with Mocha's error output",
   "main": "index.js",
   "scripts": {
